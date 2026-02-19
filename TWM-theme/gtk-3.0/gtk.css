@@ -2513,3 +2513,20 @@ popover .circular image{  color: @colorAccent;}
 /* this fix playmymusic separation titlebar buttons */
 .background.csd .mode_button_split.toggle { margin-left: -4px;}
 
+/* lutris/csd border fix */
+window.csd,
+window.solid-csd {
+  border: 3px solid #9666ff;
+  border-radius: 0px;
+}
+
+decoration,
+window decoration {
+  border: 3px solid #9666ff;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+decoration:backdrop {
+  border: 3px solid #4a327a;
+}
